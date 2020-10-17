@@ -1,18 +1,23 @@
-server
-  port: 8888
-spring
-  application
+server:
+  port: 8084
+spring:
+  application:
     name: config-server
+  # springCloudConfig配置文件地址
+  cloud:
+    config:
+      label: master #配置仓库的分支
+      server:
+        git:
+          uri: https://github.com/forezp/SpringcloudConfig/ #配置git仓库地址
+          searchPaths: respo  #配置仓库路径
+          username: chenyumin #访问git仓库的用户名
+          password: 123 #访问git仓库的用户密码
 
-
-spring
-  cloud
-    config
-    server
-      git
-        uri: https://github.com/forezp/SpringcloudConfig/ #配置git仓库地址
-        searchPaths: respo  #配置仓库路径
-        label: master #配置仓库的分支
-        username: chenyumin #访问git仓库的用户名
-        password: 123 #访问git仓库的用户密码
-
+# eureka配置
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
