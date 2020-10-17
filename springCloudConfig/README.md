@@ -18,7 +18,9 @@
 
 github下载：[https://github.com/forezp/SpringCloudLearning](https://github.com/forezp/SpringCloudLearning),记得star哦！
 
-欢迎大家访问我的个人博客：https://www.fangzhipeng.com/
+欢迎大家访问我的个人博客：https://www.cnblogs.com/chenyumin/
+
+#  springColud完整开发教程文档：https://www.breakyizhan.com/springboot/4733.html
 
 ### 《史上最简单的 SpringCloud 教程》系列：
 ### Greenwich版本 
