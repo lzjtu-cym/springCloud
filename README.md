@@ -3,8 +3,8 @@ springCloud 完整开发案例
 
 
 >转载请标明出处： 
-> http://blog.csdn.net/forezp/article/details/70148833
-> 本文出自[方志朋的博客](http://blog.csdn.net/forezp)
+> https://github.com/lzjtu-cym/springColud
+> 本文出自[陈育民的博客](https://www.cnblogs.com/chenyumin/)
 > 
 
 
