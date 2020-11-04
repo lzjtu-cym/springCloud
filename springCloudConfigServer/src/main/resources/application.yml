@@ -13,9 +13,3 @@ spring:
           searchPaths: respo  #配置仓库路径
           username: lzjtu-cym #访问git仓库的用户名
           password: cym3185205 #访问git仓库的用户密码
-
-# eureka配置
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8080/eureka/

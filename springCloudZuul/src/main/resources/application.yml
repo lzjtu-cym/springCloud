@@ -4,15 +4,15 @@ spring:
   application:
     name: service-zuul
 
-# eurekaÅäÖÃ
+# eurekaé…ç½®
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/
 
-# zuulÍø¹ØÅäÖÃ
-# ÒÔ/api-a/ ¿ªÍ·µÄÇëÇó¶¼×ª·¢¸øservice-ribbon·şÎñ
-# ÒÔ/api-b/¿ªÍ·µÄÇëÇó¶¼×ª·¢¸øservice-feign·şÎñ
+# zuulç½‘å…³é…ç½®
+# ä»¥/api-a/ å¼€å¤´çš„è¯·æ±‚éƒ½è½¬å‘ç»™service-ribbonæœåŠ¡
+# ä»¥/api-b/å¼€å¤´çš„è¯·æ±‚éƒ½è½¬å‘ç»™service-feignæœåŠ¡
 zuul:
   routes:
     api-a:
