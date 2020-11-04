@@ -1,0 +1,11 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: main #配置仓库的分支
+      profile: dev  #开发环境配置文件
+      uri: http://localhost:8084/ #配置git仓库地址

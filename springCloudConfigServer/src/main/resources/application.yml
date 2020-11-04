@@ -3,21 +3,19 @@ server:
 spring:
   application:
     name: config-server
-  # springCloudConfigÅäÖÃÎÄ¼şµØÖ·
+  # springCloudConfigé…ç½®
   cloud:
     config:
-      label: master #ÅäÖÃ²Ö¿âµÄ·ÖÖ§
+      label: main #
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/ #ÅäÖÃgit²Ö¿âµØÖ·
-          searchPaths: respo  #ÅäÖÃ²Ö¿âÂ·¾¶
-          username: chenyumin #·ÃÎÊgit²Ö¿âµÄÓÃ»§Ãû
-          password: 123 #·ÃÎÊgit²Ö¿âµÄÓÃ»§ÃÜÂë
+          uri: https://github.com/lzjtu-cym/springColud/tree/main/springCloudConfig/ #é…ç½®gitä»“åº“åœ°å€
+          searchPaths: respo  #é…ç½®ä»“åº“è·¯å¾„
+          username: lzjtu-cym #è®¿é—®gitä»“åº“çš„ç”¨æˆ·å
+          password: cym3185205 #è®¿é—®gitä»“åº“çš„ç”¨æˆ·å¯†ç 
 
-# eurekaÅäÖÃ
+# eurekaé…ç½®
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/
