@@ -6,10 +6,15 @@ spring:
   # springCloudConfig配置
   cloud:
     config:
-      label: main #
+      label: master #
       server:
         git:
-          uri: https://github.com/lzjtu-cym/springColud/tree/main/springCloudConfig/ #配置git仓库地址
+          uri: https://github.com/forezp/SpringcloudConfig/ #配置git仓库地址
           searchPaths: respo  #配置仓库路径
-          username: lzjtu-cym #访问git仓库的用户名
-          password: cym3185205 #访问git仓库的用户密码
+          username:  #访问git仓库的用户名
+          password:  #访问git仓库的用户密码
+# eureka配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
