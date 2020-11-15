@@ -6,10 +6,10 @@ spring:
   # springCloudConfig配置
   cloud:
     config:
-      label: master #
+      label: master #分支
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/ #配置git仓库地址
+          uri: https://gitee.com/lzjtu_cym/spring-cloud-config/ #配置git仓库地址
           searchPaths: respo  #配置仓库路径
           username:  #访问git仓库的用户名
           password:  #访问git仓库的用户密码
